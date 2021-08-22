@@ -1,0 +1,52 @@
+* {
+    color: #fff;
+}
+.containerFor {
+    padding: 0 40px;
+    overflow-y: scroll;
+    height: 101%;
+}
+.hed {
+    margin-top: 30px;
+}
+.hed {
+    display: flex;
+    align-items: center;
+}
+.title {
+    padding-right: 70px;
+}
+.arrow {
+    font-size: 1.3rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+.arrow:hover {
+    background-color: #0000008a;
+    border-radius: 10px;
+}
+.title p {
+    font-size: 0.7rem;
+    color: #ffffffc2;
+}
+.descripFor {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.des1 img {
+    width: 100%;
+    border-radius: 10px;
+    height: 150px;
+}
+.des1 p {
+    font-size: 0.9rem;
+}
+.price {
+    display: flex;
+}
+.price h5 {
+    margin-right: 5px;
+}
